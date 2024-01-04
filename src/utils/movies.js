@@ -1,6 +1,6 @@
 import poster_img from '../images/develop-card-pic.png';
 
-export const movies = [
+const moviesData = [
   {
     "_id": "1",
     "poster": poster_img,
@@ -119,27 +119,5 @@ export const movies = [
     "duration": "1ч 42м",
   },
 ]
-export const savedMovies = [
-  {
-    "_id": "1",
-    "poster": poster_img,
-    "title": "33 слова о дизайне-1",
-    "duration": "1ч 42м",
-    "saved": true,
-  },
 
-  {
-    "_id": "2",
-    "poster": poster_img,
-    "title": "33 слова о дизайне-2",
-    "duration": "1ч 42м",
-  },
-
-  {
-    "_id": "3",
-    "poster": poster_img,
-    "title": "33 слова о дизайне-3",
-    "duration": "1ч 42м",
-    "saved": true,
-  }
-]
+export default moviesData

@@ -1,6 +1,5 @@
 import { useLocation } from 'react-router-dom'
 import { useState } from 'react'
-import developPic from '../../images/develop-card-pic.png'
 import './MoviesCard.css'
 export default function MoviesCard({ card }) {
     const location = useLocation()

@@ -103,7 +103,6 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        color: #000;
     }
 
     .navigation__list_state_closed {
@@ -117,6 +116,7 @@
         flex-direction: column;
         align-items: center;
         background-color: #FFF;
+        color: #000;
         height: 100vh;
         width: 67%;
     }
